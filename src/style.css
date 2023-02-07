@@ -1,0 +1,589 @@
+body {
+    padding: 0 12px;
+}
+
+.accordion-item {
+    width: 100%;
+}
+
+.home {
+    text-align: left;
+    padding: 0 100px;
+}
+
+.navbar {
+    background-color: #cfd4ed;
+}
+
+.navbar-nav {
+    padding-right: 200px;
+    font-weight: bold;
+}
+
+.buttonHome {
+    height: 34px;
+    width: 100px;
+}
+
+.fotoMobil {
+    width: 100%;
+    height: 100%;
+}
+
+.headerText {
+    position: absolute;
+    font-weight: bold;
+    line-height: 150%;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: left;
+    width: 568px;
+    height: 108px;
+}
+
+.headText {
+    text-align: left;
+    font-size: 36px;
+    font-weight: bold;
+    padding-left: 100px;
+}
+
+.text1 {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.text2 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.text3 {
+    text-align: left;
+    font-weight: bold;
+    margin-top: 200px;
+}
+
+.serviceText {
+    margin-top: 150px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+}
+
+.butSewa {
+    margin-left: 100px;
+    width: 140px;
+    height: 36px;
+    border-radius: 10px;
+}
+
+.butSewa1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    height: 36px;
+    border-radius: 10px;
+}
+
+.textSewa {
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 22px;
+    width: auto;
+    height: auto;
+}
+
+.avaService {
+    width: 482px;
+    height: 450px;
+    margin-top: 100px;
+}
+
+.whyText {
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 100px;
+    padding-left: 100px;
+}
+
+.whyRow {
+    padding: 0 100px;
+}
+
+.listSewa {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 45px;
+    text-align: left;
+}
+
+.correctList {
+    list-style-image: url(images/correct.png);
+}
+
+.cardFooter {
+    padding: 100px 100px 0 100px;
+}
+
+.cardFaq {
+    height: "600px"
+}
+
+.cardConnect {
+    margin-bottom: -5px;
+    text-align: left;
+}
+
+.itemConnect {
+    display: flex;
+    gap: 35px;
+}
+
+.ftext1 {
+    font-weight: bold;
+    text-align: left;
+}
+
+.ftext2 {
+    text-align: left;
+}
+
+.searchButton {
+    width: 219px;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.searchButton1 {
+    width: 219px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.fbutton {
+    height: 34px;
+    width: 100px;
+    margin-right: 55px;
+}
+
+.footerList {
+    list-style-image: url(images/correct.png);
+}
+
+.fa {
+    font-size: 2px;
+    width: 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.testing {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.testing1 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.CardSewa {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: #0D28A6;
+    padding: 0 50px;
+    border-radius: 10px;
+    height: 280px;
+}
+
+.cardSearch {
+    top: 490px;
+    left: 150px;
+    position: absolute;
+    justify-content: center;
+}
+
+.cardCari {
+    top: 100px;
+    left: 150px;
+    position: absolute;
+    justify-content: center;
+}
+
+.cardSearch1 {
+    width: 1047px;
+}
+
+.cardSearch2 {
+    display: flex;
+    gap: 20px;
+}
+
+.cRight {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.textFaq {
+    padding-left: 100px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 24px;
+}
+
+.textFaq1 {
+    padding-left: 100px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 14px;
+}
+
+.textDrop {
+    font-weight: normal;
+    text-align: left;
+    color: black;
+    margin-left: 10px;
+}
+
+.whyCard {
+    text-align: left;
+    padding: 20px 100px;
+}
+
+.textCard {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.card-text {
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.butNext,
+.butPrev {
+    border-radius: 100%;
+}
+
+.sliderButton {
+    margin: 0 auto;
+    justify-content: center;
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.butNext:hover {
+    background-color: #5CB85F;
+}
+
+.butPrev:hover {
+    background-color: #5CB85F;
+}
+
+.searchText {
+    font-size: 12px;
+    text-align: left;
+}
+
+.hasilCard {
+    width: 333px;
+    height: 478px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 220px 120px 0 120px;
+
+}
+
+.gambarHasil {
+    width: 100%;
+}
+
+.textHasil {
+    text-align: left;
+}
+
+.textDetail {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.detailCard {
+    height: 618px;
+}
+
+
+.listDetail {
+    color: gray;
+    text-align: left;
+}
+
+.cardCarousel {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    height: 270px;
+    width: 619px;
+    background-color: #F1F3FF;
+    padding: 0px 50px;
+    margin: 0 auto;
+}
+
+.textCard1 {
+    padding: 0 250px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.cardDetail {
+    padding: 200px 125px 600px 125px;
+    height: 700px;
+}
+
+.buttonHasilCard {
+    max-width: 100%;
+    height: 48px;
+}
+
+
+@media only screen and (max-width: 990px) {
+    .navbar-nav {
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .buttonHome {
+        position: absolute;
+        display: block;
+        top: 10px;
+        left: 10px;
+        width: 90px;
+    }
+
+    .headText {
+        padding-left: 0;
+        padding-top: 10px;
+    }
+
+    .text1 {
+        padding-left: 0;
+        padding-top: 10px;
+    }
+
+    .butSewa {
+        margin-left: 0px;
+    }
+
+    .avaService {
+        width: inherit;
+        height: 350px;
+        margin-top: 100px;
+    }
+
+    .serviceText {
+        padding-right: 0px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: left;
+    }
+
+    .whyRow {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .whyCard {
+        text-align: left;
+        padding: 20px 20px;
+    }
+
+    .cardCarousel {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .textCard {
+        padding: 15px 70px;
+        font-weight: 700;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .textCard1 {
+        padding: 0 70px;
+    }
+
+    .CardSewa {
+        width: 100%;
+        text-align: left;
+        margin: 0 auto;
+        height: auto;
+        background-color: #0D28A6;
+        border-radius: 10px;
+        color: white;
+        padding-bottom: 10px;
+    }
+
+    .butDrop {
+        width: inherit;
+    }
+
+    .textFaq {
+        padding: 0 10px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    .textFaq1 {
+        padding: 0 10px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .accordion-item {
+        width: 100%;
+    }
+
+    .cardFooter {
+        padding-top: 100px;
+        padding-left: 0;
+        padding-bottom: 50px;
+    }
+
+    .cardConnect {
+        padding-left: 0;
+    }
+
+    .itemConnect {
+        padding-top: 0;
+    }
+
+    .ftext2 {
+        padding-left: 0;
+        text-align: left;
+    }
+
+    .fbutton {
+        height: 34px;
+        width: 100px;
+    }
+
+    .cRight {
+        padding-top: 30px;
+    }
+
+    .cardSearch {
+        position: static;
+        padding: 0 10px;
+    }
+
+    .cardSearch2 {
+        display: grid;
+    }
+
+    .searchButton {
+        text-align: left;
+        width: 100%;
+    }
+
+    .cardCari {
+        position: static;
+        left: 30%;
+        padding: 0 10px;
+    }
+
+    .hasilCard {
+        width: 100%;
+        height: 478px;
+    }
+
+    .hasil {
+        padding: 5px 10px;
+        width: 100%;
+    }
+
+    .gambarHasil {
+        width: 100%;
+    }
+
+    .cardSearch1 {
+        width: 100%;
+    }
+
+    .cardDetail {
+        padding: 5px 10px;
+        height: 50%;
+    }
+
+    .detailCard {
+        height: auto;
+    }
+
+    .detailCard1 {
+        height: auto;
+    }
+
+    .buttonHasilCard {
+        width: 100%;
+    }
+
+    .grid-container {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        padding: 0;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    .cRight {
+        padding-top: 0;
+    }
+
+    .cardFooter {
+        padding-right: 0;
+    }
+
+    .ftext2 {
+        padding-left: 50px;
+        text-align: left;
+    }
+}

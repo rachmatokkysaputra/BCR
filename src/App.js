@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './pages/Home';
+import CariMobil from './pages/CariMobil';
+import HasilCari from './pages/HasilPencarian';
+import DetailMobil from './pages/DetailMobil';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route exact path='/' element={<Home />}></Route>
+          <Route exact path='/CariMobil' element={<CariMobil />}></Route>
+          <Route exact path='/HasilCari' element={<HasilCari />}></Route>
+          <Route exact path="DetailMobil/:id" element={<DetailMobil />}></Route>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
